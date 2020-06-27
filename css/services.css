@@ -1,0 +1,16 @@
+.section-bottom .boxItems{
+    flex-wrap: wrap;
+    background-color: var(--white);
+    padding: 50px 0px;
+}
+
+.section-bottom .boxItem{
+    flex: 0 1 25% !important;
+    background-color: var(--white) !important;
+    color: var(--green);
+    padding: 10px 10px;
+}
+.section-bottom .boxDic{
+    color: black;
+
+}

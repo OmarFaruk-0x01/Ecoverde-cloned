@@ -1,0 +1,26 @@
+.form-wrap{
+    min-width: 100%;
+    margin: 0px 20px;
+}
+
+.middleRow{
+    flex-direction: column;
+    padding: 40px 0;
+}
+.middleColumn{
+    padding: 30px;
+}
+.middleColumn:nth-child(1)::before,
+.middleColumn:nth-child(2)::before{
+    border-right: none;
+}
+
+.map-wrap{
+    width: 90%;
+}
+
+@media screen and (max-width: 460px){
+    .form-wrap form{
+        padding: 1.5rem !important;
+    }
+}

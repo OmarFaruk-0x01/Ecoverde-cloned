@@ -1,0 +1,49 @@
+
+
+.about-landing{
+    height: 500px !important;
+}
+.overlay{
+    opacity: .8;
+    background-color: #21243d !important;
+}
+.page-pathDiv{ 
+    text-transform: uppercase;  
+    color: rgba(255,255,255,.5);
+    margin: 20px;
+}
+
+.text {
+    width: 100%;
+    text-align: center;
+}
+
+.page-path{
+    text-decoration: none;
+    color: rgba(255,255,255,.5);
+    transition: color .4s ease;
+    -webkit-transition: color .4s ease;
+    -moz-transition: color .4s ease;
+    -ms-transition: color .4s ease;
+    -o-transition: color .4s ease;
+}
+.page-path:hover{
+    color: var(--green)
+}
+
+@media only screen and (max-width: 1000px){
+    nav{
+        color: white;
+    }
+    .text{
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 760px){
+    .text  h3{
+        font-size: 45px !important;
+    }
+    .page-pathDiv{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,24 @@
+.agents-page-row {
+  flex-wrap: wrap;
+  flex-flow: wrap;
+}
+.agent {
+    flex: 0 0 23% !important;
+    margin: 10px auto;
+}
+
+@media only screen and (max-width: 1000px){
+    .agent {
+        flex: 0 5 33% !important;
+        margin: 10px auto;
+    }
+}
+
+.agentsPP img{
+    height: 100%;
+}
+.agentsPP {
+    width: 100%;
+    position: relative;
+    height: 100%;
+}

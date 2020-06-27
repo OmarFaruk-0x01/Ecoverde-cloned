@@ -1,0 +1,43 @@
+.text, .searchBox{
+    animation: fade-bottom-to-top .5s linear forwards;
+    -webkit-animation: fade-bottom-to-top .5s linear forwards;
+}
+
+
+@keyframes fade-bottom-to-top{
+    from{
+        transform: translateY(100px);
+        -webkit-transform: translateY(100px);
+        -moz-transform: translateY(100px);
+        -ms-transform: translateY(100px);
+        -o-transform: translateY(100px);
+}
+    to{
+        transform: translateY(inherit);
+        opacity: 1;
+        -webkit-transform: translateY(inherit);
+        -moz-transform: translateY(inherit);
+        -ms-transform: translateY(inherit);
+        -o-transform: translateY(inherit);
+}
+}
+
+
+@keyframes slide-from-left{
+    from{
+        transform: translateX(-50px);
+        opacity: 0;
+        -webkit-transform: translateX(-50px);
+        -moz-transform: translateX(-50px);
+        -ms-transform: translateX(-50px);
+        -o-transform: translateX(-50px);
+}
+    to{
+        transform: translateX(inherit);
+        opacity: 1;
+        -webkit-transform: translateX(inherit);
+        -moz-transform: translateX(inherit);
+        -ms-transform: translateX(inherit);
+        -o-transform: translateX(inherit);
+}
+}
