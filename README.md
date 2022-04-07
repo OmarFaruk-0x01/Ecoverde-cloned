@@ -1,4 +1,5 @@
-# Ecoverde-cloned
-#### I am a Beginner at Web Designing
-It is my another project of [Ecoverde](https://colorlib.com/preview/theme/ecoverde/index.html) web site clone from **colorlib.com**. I missed some animations. I have to learn that more.
-If you have any suggestion then please advice me for improving my skills
+# Ecoverde-cloned 
+
+Visit My site? [Click-Here](https://omarfaruk-0x01.github.io/Ecoverde-cloned/)
+
+<img src="SnapShot.png.png"></img>
